@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.twosums"
+    namespace = "com.example.yandexlecturesalgorithms"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.twosums"
+        applicationId = "com.example.yandexlecturesalgorithms"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -43,5 +43,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation(kotlin("script-runtime"))
 }
